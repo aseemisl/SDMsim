@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Islam
+    given-names: Syed Aseem Ul
+    orcid: https://orcid.org/0000-0001-8075-2170
+title: "My Research Software"
+version: 2.0.4
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.11205048
+date-released: 2024-05-16
