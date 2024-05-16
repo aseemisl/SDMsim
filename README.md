@@ -6,7 +6,7 @@ University of Michigan, Ann Arbor,
 May 16, 2024.
 
 This is a flight dynamics simulation of the standard dynamics model (SDM) based on static CFD. 
-CFD simulations at Mach numbers 0.3, 0.7, 0.9, 1.0, 1.1, 1.2, 1.5. At each Mach number, we simulated angles-of-attack -10◦, 0◦, 10◦, 20◦, 30◦. 
+CFD simulations were run at Mach numbers 0.3, 0.7, 0.9, 1.0, 1.1, 1.2, 1.5. At each Mach number, we simulated angles-of-attack -10◦, 0◦, 10◦, 20◦, 30◦. 
 Furthermore, at each Mach number and angle-of-attack, we simulated elevator deflection of the all-moving horizontal tail -10◦, 0◦, -10◦. 
 That is, we ran a total of 7 × 3 × 3 = 63 simulations. 
 The CFD simulations were run by Syed Mohammad Ali, an independent researcher in Islamabad, Pakistan.
