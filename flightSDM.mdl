@@ -1,12 +1,12 @@
 Model {
-  Name			  "flightSDM"
+  Name			  "flightSDM_2016b"
   Version		  8.8
   SavedCharacterEncoding  "windows-1252"
   GraphicalInterface {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.114"
+    ComputedModelVersion    "15.4"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -34,7 +34,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [-1.0, -7.0, 1538.0, 824.0]
+      Location		      [-2049.0, -7.0, 2050.0, 1112.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -56,21 +56,21 @@ Model {
 	Dimension		2
 	Object {
 	  $ObjectID		  5
-	  IsActive		  [1]
+	  IsActive		  [0]
 	  ViewObjType		  "SimulinkTopLevel"
 	  LoadSaveID		  "0"
-	  Extents		  [1807.0, 741.0]
+	  Extents		  [2515.0, 1101.0]
 	  ZoomFactor		  [1.5481965375258528]
-	  Offset		  [180.95722044284304, 265.76577046030889]
+	  Offset		  [180.9572204428431, 265.76577046030889]
 	}
 	Object {
 	  $ObjectID		  6
-	  IsActive		  [0]
+	  IsActive		  [1]
 	  ViewObjType		  "SimulinkSubsys"
 	  LoadSaveID		  "34"
-	  Extents		  [1807.0, 741.0]
+	  Extents		  [2515.0, 712.0]
 	  ZoomFactor		  [1.25]
-	  Offset		  [100.76290148448106, 147.11737737468448]
+	  Offset		  [-618.66376518218442, 157.81071070801852]
 	}
 	PropName		"EditorsInfo"
       }
@@ -81,13 +81,13 @@ Model {
 	  $ObjectID		  10
 	  Type			  "GLUE2:PropertyInspector"
 	  ID			  "Property Inspector"
-	  Visible		  [1]
+	  Visible		  [0]
 	  CreateCallback	  ""
 	  UserData		  ""
 	  Floating		  [0]
 	  DockPosition		  "Right"
-	  Width			  [512]
-	  Height		  [384]
+	  Width			  [300]
+	  Height		  [902]
 	}
 	PropName		"DockComponentsInfo"
       }
@@ -97,12 +97,9 @@ Model {
       "P////8AAAB5AP////sAAABuAEwAaQBiAHIAYQByAHkAQgByAG8AdwBzAGUAcgAyACAATABpAGIAcgBhAHIAeQBCAHIAbwB3AHMAZQByAFMAdAB1A"
       "GQAaQBvAEMAbwBtAHAAbwBuAGUAbgB0AC8AZgBsAGkAZwBoAHQAUwBEAE0AAAAAAP////8AAAAAAAAAAPsAAABgAFMAaQBtAHUAbABpAG4AawA6A"
       "EUAZABpAHQAbwByADoAUgBlAGYAZQByAGUAbgBjAGUAZABGAGkAbABlAHMALwBSAGUAZgBlAHIAZQBuAGMAZQBkACAARgBpAGwAZQBzAAAAAAD//"
-      "///AAAApwD///8AAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAdABvAHIALwBQA"
-      "HIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAhYA////AAAAAwAABqkAAAGA/AEAAAAB+/////8AAAAAAP////8AA"
-      "AGuAP///wAABzwAAAMsAAAAAQAAAAIAAAABAAAAAvwAAAADAAAAAAAAAAEAAAA2AGMAbwBsAGwAYQBwAHMAaQBiAGwAZQBQAGEAbgBlAGwAVABvA"
-      "G8AbABCAGEAcgBMAGUAZgB0AwAAAAD/////AAAAAAAAAAAAAAABAAAAAQAAADgAYwBvAGwAbABhAHAAcwBpAGIAbABlAFAAYQBuAGUAbABUAG8Ab"
-      "wBsAEIAYQByAFIAaQBnAGgAdAMAAAAA/////wAAAAAAAAAAAAAAAwAAAAEAAAA6AGMAbwBsAGwAYQBwAHMAaQBiAGwAZQBQAGEAbgBlAGwAVABvA"
-      "G8AbABCAGEAcgBCAG8AdAB0AG8AbQAAAAAA/////wAAAAAAAAAA"
+      "///AAAApwD///8AAAABAAABewAABIr8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAdABvAHIALwBQA"
+      "HIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAACXAAAEigAAAKcA////AAAAAwAACgAAAAGA/AEAAAAB+/////8BAAAAAAAACgAAA"
+      "AGuAP///wAACgAAAAMPAAAAAQAAAAIAAAABAAAAAvwAAAADAAAAAAAAAAAAAAABAAAAAAAAAAMAAAAA"
     }
   }
   Created		  "Fri Apr 19 10:16:22 2024"
@@ -110,7 +107,7 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "skysh"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Fri Apr 19 13:04:12 2024"
+  LastModifiedDate	  "Fri May 17 11:18:50 2024"
   ModelVersionFormat	  "1.%<AutoIncrement:0>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -156,12 +153,12 @@ Model {
     $PropName		    "DataLoggingOverride"
     $ObjectID		    11
     $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
-    model_		    "flightSDM"
+    model_		    "flightSDM_2016b"
     overrideMode_	    [0.0]
     Array {
       Type		      "Cell"
       Dimension		      1
-      Cell		      "flightSDM"
+      Cell		      "flightSDM_2016b"
       PropName		      "logAsSpecifiedByModels_"
     }
     Array {
@@ -1359,10 +1356,10 @@ Model {
     }
   }
   System {
-    Name		    "flightSDM"
-    Location		    [-1, -7, 1537, 817]
+    Name		    "flightSDM_2016b"
+    Location		    [-2049, -7, 1, 1105]
     Open		    off
-    ModelBrowserVisibility  on
+    ModelBrowserVisibility  off
     ScreenColor		    "white"
     PaperOrientation	    "landscape"
     PaperPositionMode	    "auto"
@@ -1373,7 +1370,7 @@ Model {
     ShowPageBoundaries	    off
     ZoomFactor		    "155"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "68"
+    SIDHighWatermark	    "71"
     Block {
       BlockType		      Constant
       Name		      "Constant"
@@ -1415,9 +1412,9 @@ Model {
       }
       System {
 	Name			"Flight Dynamics SDM"
-	Location		[-1, -7, 1537, 817]
+	Location		[-2049, -7, 1, 1105]
 	Open			off
-	ModelBrowserVisibility	on
+	ModelBrowserVisibility	off
 	ScreenColor		"white"
 	PaperOrientation	"landscape"
 	PaperPositionMode	"auto"
@@ -1431,14 +1428,14 @@ Model {
 	  BlockType		  Inport
 	  Name			  "de"
 	  SID			  "35"
-	  Position		  [385, 433, 415, 447]
+	  Position		  [425, 523, 455, 537]
 	  ZOrder		  317
 	}
 	Block {
 	  BlockType		  Inport
 	  Name			  "T"
 	  SID			  "41"
-	  Position		  [385, 523, 415, 537]
+	  Position		  [425, 613, 455, 627]
 	  ZOrder		  321
 	  Port			  "2"
 	}
@@ -1447,7 +1444,7 @@ Model {
 	  Name			  "Bus\nCreator"
 	  SID			  "14"
 	  Ports			  [3, 1]
-	  Position		  [880, 285, 890, 345]
+	  Position		  [895, 320, 905, 380]
 	  ZOrder		  300
 	  Inputs		  "3"
 	  DisplayOption		  "bar"
@@ -1458,7 +1455,7 @@ Model {
 	  Name			  "Bus\nSelector1"
 	  SID			  "18"
 	  Ports			  [1, 3]
-	  Position		  [310, 230, 315, 290]
+	  Position		  [130, 230, 135, 290]
 	  ZOrder		  304
 	  OutputSignals		  "alpha,de,Mach"
 	  Port {
@@ -1479,7 +1476,7 @@ Model {
 	  Name			  "Bus\nSelector2"
 	  SID			  "17"
 	  Ports			  [1, 3]
-	  Position		  [315, 140, 320, 200]
+	  Position		  [135, 140, 140, 200]
 	  ZOrder		  303
 	  OutputSignals		  "alpha,de,Mach"
 	  Port {
@@ -1500,7 +1497,7 @@ Model {
 	  Name			  "Bus\nSelector3"
 	  SID			  "19"
 	  Ports			  [1, 3]
-	  Position		  [310, 320, 315, 380]
+	  Position		  [130, 320, 135, 380]
 	  ZOrder		  305
 	  OutputSignals		  "alpha,de,Mach"
 	  Port {
@@ -1521,7 +1518,7 @@ Model {
 	  Name			  "Bus\nSelector4"
 	  SID			  "52"
 	  Ports			  [1, 3]
-	  Position		  [325, 700, 330, 760]
+	  Position		  [145, 790, 150, 850]
 	  ZOrder		  324
 	  OutputSignals		  "alpha,de,Mach"
 	  Port {
@@ -1542,7 +1539,7 @@ Model {
 	  Name			  "Bus\nSelector5"
 	  SID			  "54"
 	  Ports			  [1, 3]
-	  Position		  [325, 785, 330, 845]
+	  Position		  [145, 875, 150, 935]
 	  ZOrder		  326
 	  OutputSignals		  "alpha,de,Mach"
 	  Port {
@@ -1559,11 +1556,28 @@ Model {
 	  }
 	}
 	Block {
+	  BlockType		  BusSelector
+	  Name			  "Bus\nSelector6"
+	  SID			  "71"
+	  Ports			  [1, 2]
+	  Position		  [130, 410, 135, 470]
+	  ZOrder		  338
+	  OutputSignals		  "alpha,Mach"
+	  Port {
+	    PortNumber		    1
+	    Name		    "<alpha>"
+	  }
+	  Port {
+	    PortNumber		    2
+	    Name		    "<Mach>"
+	  }
+	}
+	Block {
 	  BlockType		  Lookup_n-D
 	  Name			  "CFx"
 	  SID			  "2"
 	  Ports			  [3, 1]
-	  Position		  [385, 138, 450, 202]
+	  Position		  [205, 138, 270, 202]
 	  ZOrder		  288
 	  NumberOfTableDimensions "3"
 	  BreakpointsForDimension1 "alphaBP"
@@ -1578,7 +1592,7 @@ Model {
 	  Name			  "CFz"
 	  SID			  "8"
 	  Ports			  [3, 1]
-	  Position		  [385, 228, 450, 292]
+	  Position		  [205, 228, 270, 292]
 	  ZOrder		  294
 	  NumberOfTableDimensions "3"
 	  BreakpointsForDimension1 "alphaBP"
@@ -1593,7 +1607,7 @@ Model {
 	  Name			  "CMm"
 	  SID			  "9"
 	  Ports			  [3, 1]
-	  Position		  [385, 318, 450, 382]
+	  Position		  [205, 318, 270, 382]
 	  ZOrder		  295
 	  NumberOfTableDimensions "3"
 	  BreakpointsForDimension1 "alphaBP"
@@ -1608,7 +1622,7 @@ Model {
 	  Name			  "CMm1"
 	  SID			  "51"
 	  Ports			  [3, 1]
-	  Position		  [455, 698, 520, 762]
+	  Position		  [455, 788, 520, 852]
 	  ZOrder		  323
 	  NumberOfTableDimensions "3"
 	  BreakpointsForDimension1 "alphaBP"
@@ -1623,7 +1637,7 @@ Model {
 	  Name			  "CMm2"
 	  SID			  "53"
 	  Ports			  [3, 1]
-	  Position		  [455, 783, 520, 847]
+	  Position		  [455, 873, 520, 937]
 	  ZOrder		  325
 	  NumberOfTableDimensions "3"
 	  BreakpointsForDimension1 "alphaBP"
@@ -1634,11 +1648,25 @@ Model {
 	  RndMeth		  "Simplest"
 	}
 	Block {
+	  BlockType		  Lookup_n-D
+	  Name			  "CMmq"
+	  SID			  "70"
+	  Ports			  [2, 1]
+	  Position		  [205, 408, 270, 472]
+	  ZOrder		  337
+	  BreakpointsForDimension1 "alphaBP_Cmq"
+	  BreakpointsForDimension2 "machBP_Cmq"
+	  BreakpointsForDimension3 "machBP"
+	  Table			  "CMq"
+	  InternalRulePriority	  "Speed"
+	  RndMeth		  "Simplest"
+	}
+	Block {
 	  BlockType		  Product
 	  Name			  "Divide"
 	  SID			  "58"
 	  Ports			  [2, 1]
-	  Position		  [680, 639, 745, 761]
+	  Position		  [680, 729, 745, 851]
 	  ZOrder		  330
 	  Inputs		  "/*"
 	}
@@ -1647,7 +1675,7 @@ Model {
 	  Name			  "Integrator"
 	  SID			  "11"
 	  Ports			  [1, 1]
-	  Position		  [660, 290, 690, 320]
+	  Position		  [665, 335, 695, 365]
 	  ZOrder		  297
 	  InitialCondition	  "x0"
 	}
@@ -1655,7 +1683,7 @@ Model {
 	  BlockType		  Constant
 	  Name			  "Perturbation"
 	  SID			  "56"
-	  Position		  [350, 655, 380, 685]
+	  Position		  [170, 745, 200, 775]
 	  ZOrder		  328
 	  Value			  "1e-3"
 	}
@@ -1664,7 +1692,7 @@ Model {
 	  Name			  "Sum"
 	  SID			  "55"
 	  Ports			  [2, 1]
-	  Position		  [410, 700, 430, 720]
+	  Position		  [410, 790, 430, 810]
 	  ZOrder		  327
 	  Inputs		  "++|"
 	}
@@ -1673,7 +1701,7 @@ Model {
 	  Name			  "Sum1"
 	  SID			  "57"
 	  Ports			  [2, 1]
-	  Position		  [620, 720, 640, 740]
+	  Position		  [620, 810, 640, 830]
 	  ZOrder		  329
 	  Inputs		  "|+-"
 	}
@@ -1682,7 +1710,7 @@ Model {
 	  Name			  "To Workspace"
 	  SID			  "38"
 	  Ports			  [1]
-	  Position		  [740, 382, 765, 408]
+	  Position		  [755, 417, 780, 443]
 	  ZOrder		  319
 	  VariableName		  "x"
 	  MaxDataPoints		  "inf"
@@ -1695,7 +1723,7 @@ Model {
 	  Name			  "To Workspace1"
 	  SID			  "39"
 	  Ports			  [1]
-	  Position		  [870, 212, 895, 238]
+	  Position		  [885, 247, 910, 273]
 	  ZOrder		  320
 	  VariableName		  "de"
 	  MaxDataPoints		  "inf"
@@ -1708,7 +1736,7 @@ Model {
 	  Name			  "To Workspace2"
 	  SID			  "67"
 	  Ports			  [1]
-	  Position		  [880, 402, 905, 428]
+	  Position		  [895, 437, 920, 463]
 	  ZOrder		  335
 	  VariableName		  "Mach"
 	  MaxDataPoints		  "inf"
@@ -1721,7 +1749,7 @@ Model {
 	  Name			  "outputs"
 	  SID			  "13"
 	  Ports			  [1, 5]
-	  Position		  [740, 268, 830, 362]
+	  Position		  [755, 303, 845, 397]
 	  ZOrder		  299
 	  ErrorFcn		  "Stateflow.Translate.translate"
 	  PermitHierarchicalResolution "ExplicitOnly"
@@ -1752,7 +1780,7 @@ Model {
 	    Name		    "outputs"
 	    Location		    [223, 338, 826, 833]
 	    Open		    off
-	    ModelBrowserVisibility  on
+	    ModelBrowserVisibility  off
 	    ScreenColor		    "white"
 	    PaperOrientation	    "landscape"
 	    PaperPositionMode	    "auto"
@@ -1762,7 +1790,7 @@ Model {
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
 	    ZoomFactor		    "100"
-	    SIDHighWatermark	    "31"
+	    SIDHighWatermark	    "34"
 	    Block {
 	      BlockType		      Inport
 	      Name		      "x"
@@ -1773,20 +1801,20 @@ Model {
 	    Block {
 	      BlockType		      Demux
 	      Name		      " Demux "
-	      SID		      "13::26"
+	      SID		      "13::33"
 	      Ports		      [1, 1]
 	      Position		      [270, 315, 320, 355]
-	      ZOrder		      17
+	      ZOrder		      24
 	      Outputs		      "1"
 	    }
 	    Block {
 	      BlockType		      S-Function
 	      Name		      " SFunction "
-	      SID		      "13::25"
-	      Tag		      "Stateflow S-Function flightSDM 1"
+	      SID		      "13::32"
+	      Tag		      "Stateflow S-Function flightSDM_2016b 1"
 	      Ports		      [1, 6]
-	      Position		      [180, 107, 230, 248]
-	      ZOrder		      16
+	      Position		      [180, 102, 230, 243]
+	      ZOrder		      23
 	      FunctionName	      "sf_sfun"
 	      PortCounts	      "[1 6]"
 	      SFunctionDeploymentMode off
@@ -1816,9 +1844,9 @@ Model {
 	    Block {
 	      BlockType		      Terminator
 	      Name		      " Terminator "
-	      SID		      "13::27"
+	      SID		      "13::34"
 	      Position		      [460, 326, 480, 344]
-	      ZOrder		      18
+	      ZOrder		      25
 	    }
 	    Block {
 	      BlockType		      Outport
@@ -1860,46 +1888,42 @@ Model {
 	      Port		      "5"
 	    }
 	    Line {
-	      ZOrder		      40
+	      ZOrder		      48
 	      SrcBlock		      "x"
 	      SrcPort		      1
-	      Points		      [65, 0; 0, 70]
 	      DstBlock		      " SFunction "
 	      DstPort		      1
 	    }
 	    Line {
 	      Name		      "y"
-	      ZOrder		      41
+	      ZOrder		      49
 	      Labels		      [0, 0]
 	      SrcBlock		      " SFunction "
 	      SrcPort		      2
-	      Points		      [69, 0; 0, -30]
 	      DstBlock		      "y"
 	      DstPort		      1
 	    }
 	    Line {
 	      Name		      "alpha"
-	      ZOrder		      42
+	      ZOrder		      50
 	      Labels		      [0, 0]
 	      SrcBlock		      " SFunction "
 	      SrcPort		      3
-	      Points		      [111, 0; 0, -20]
 	      DstBlock		      "alpha"
 	      DstPort		      1
 	    }
 	    Line {
 	      Name		      "de"
-	      ZOrder		      43
+	      ZOrder		      51
 	      Labels		      [0, 0]
 	      SrcBlock		      " SFunction "
 	      SrcPort		      4
-	      Points		      [152, 0; 0, -10]
 	      DstBlock		      "de"
 	      DstPort		      1
 	    }
 	    Line {
 	      Name		      "Mach"
-	      ZOrder		      44
+	      ZOrder		      52
 	      Labels		      [0, 0]
 	      SrcBlock		      " SFunction "
 	      SrcPort		      5
@@ -1908,26 +1932,24 @@ Model {
 	    }
 	    Line {
 	      Name		      "Gamma"
-	      ZOrder		      45
+	      ZOrder		      53
 	      Labels		      [0, 0]
 	      SrcBlock		      " SFunction "
 	      SrcPort		      6
-	      Points		      [111, 0; 0, 15]
 	      DstBlock		      "Gamma"
 	      DstPort		      1
 	    }
 	    Line {
-	      ZOrder		      46
+	      ZOrder		      54
 	      SrcBlock		      " Demux "
 	      SrcPort		      1
 	      DstBlock		      " Terminator "
 	      DstPort		      1
 	    }
 	    Line {
-	      ZOrder		      47
+	      ZOrder		      55
 	      SrcBlock		      " SFunction "
 	      SrcPort		      1
-	      Points		      [15, 0; 0, 220]
 	      DstBlock		      " Demux "
 	      DstPort		      1
 	    }
@@ -1937,8 +1959,8 @@ Model {
 	  BlockType		  SubSystem
 	  Name			  "xdot"
 	  SID			  "10"
-	  Ports			  [6, 1]
-	  Position		  [485, 38, 640, 572]
+	  Ports			  [7, 1]
+	  Position		  [485, 38, 650, 662]
 	  ZOrder		  296
 	  ErrorFcn		  "Stateflow.Translate.translate"
 	  PermitHierarchicalResolution "ExplicitOnly"
@@ -1953,7 +1975,7 @@ Model {
 	    Name		    "xdot"
 	    Location		    [223, 338, 826, 833]
 	    Open		    off
-	    ModelBrowserVisibility  on
+	    ModelBrowserVisibility  off
 	    ScreenColor		    "white"
 	    PaperOrientation	    "landscape"
 	    PaperPositionMode	    "auto"
@@ -1963,7 +1985,7 @@ Model {
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
 	    ZoomFactor		    "100"
-	    SIDHighWatermark	    "34"
+	    SIDHighWatermark	    "38"
 	    Block {
 	      BlockType		      Inport
 	      Name		      "x"
@@ -1997,40 +2019,48 @@ Model {
 	    }
 	    Block {
 	      BlockType		      Inport
+	      Name		      "Cmq"
+	      SID		      "10::38"
+	      Position		      [20, 246, 40, 264]
+	      ZOrder		      29
+	      Port		      "5"
+	    }
+	    Block {
+	      BlockType		      Inport
 	      Name		      "de_demand"
 	      SID		      "10::33"
-	      Position		      [20, 246, 40, 264]
+	      Position		      [20, 281, 40, 299]
 	      ZOrder		      24
-	      Port		      "5"
+	      Port		      "6"
 	    }
 	    Block {
 	      BlockType		      Inport
 	      Name		      "thrust"
 	      SID		      "10::34"
-	      Position		      [20, 281, 40, 299]
+	      Position		      [20, 316, 40, 334]
 	      ZOrder		      25
-	      Port		      "6"
+	      Port		      "7"
 	    }
 	    Block {
 	      BlockType		      Demux
 	      Name		      " Demux "
-	      SID		      "10::26"
+	      SID		      "10::36"
 	      Ports		      [1, 1]
 	      Position		      [270, 230, 320, 270]
-	      ZOrder		      17
+	      ZOrder		      27
 	      Outputs		      "1"
 	    }
 	    Block {
 	      BlockType		      S-Function
 	      Name		      " SFunction "
-	      SID		      "10::25"
-	      Tag		      "Stateflow S-Function flightSDM 2"
-	      Ports		      [6, 2]
-	      Position		      [180, 117, 230, 258]
-	      ZOrder		      16
+	      SID		      "10::35"
+	      Tag		      "Stateflow S-Function flightSDM_2016b 2"
+	      Ports		      [7, 2]
+	      Position		      [180, 105, 230, 265]
+	      ZOrder		      26
 	      FunctionName	      "sf_sfun"
 	      Parameters	      "params"
-	      PortCounts	      "[6 2]"
+	      PortCounts	      "[7 2]"
 	      SFunctionDeploymentMode off
 	      EnableBusSupport	      on
 	      SFcnIsStateOwnerBlock   off
@@ -2042,9 +2072,9 @@ Model {
 	    Block {
 	      BlockType		      Terminator
 	      Name		      " Terminator "
-	      SID		      "10::27"
+	      SID		      "10::37"
 	      Position		      [460, 241, 480, 259]
-	      ZOrder		      18
+	      ZOrder		      28
 	    }
 	    Block {
 	      BlockType		      Outport
@@ -2054,74 +2084,74 @@ Model {
 	      ZOrder		      -5
 	    }
 	    Line {
-	      ZOrder		      70
+	      ZOrder		      98
 	      SrcBlock		      "x"
 	      SrcPort		      1
 	      DstBlock		      " SFunction "
 	      DstPort		      1
 	    }
 	    Line {
-	      ZOrder		      71
+	      ZOrder		      99
 	      SrcBlock		      "Cx"
 	      SrcPort		      1
-	      Points		      [60, 0; 0, 5]
 	      DstBlock		      " SFunction "
 	      DstPort		      2
 	    }
 	    Line {
-	      ZOrder		      72
+	      ZOrder		      100
 	      SrcBlock		      "Cz"
 	      SrcPort		      1
-	      Points		      [60, 0; 0, -5]
 	      DstBlock		      " SFunction "
 	      DstPort		      3
 	    }
 	    Line {
-	      ZOrder		      73
+	      ZOrder		      101
 	      SrcBlock		      "Cm"
 	      SrcPort		      1
-	      Points		      [65, 0; 0, -15]
 	      DstBlock		      " SFunction "
 	      DstPort		      4
 	    }
 	    Line {
-	      ZOrder		      74
-	      SrcBlock		      "de_demand"
+	      ZOrder		      102
+	      SrcBlock		      "Cmq"
 	      SrcPort		      1
-	      Points		      [65, 0; 0, -30]
 	      DstBlock		      " SFunction "
 	      DstPort		      5
 	    }
 	    Line {
-	      ZOrder		      75
-	      SrcBlock		      "thrust"
+	      ZOrder		      103
+	      SrcBlock		      "de_demand"
 	      SrcPort		      1
-	      Points		      [100, 0; 0, -40]
 	      DstBlock		      " SFunction "
 	      DstPort		      6
 	    }
 	    Line {
+	      ZOrder		      104
+	      SrcBlock		      "thrust"
+	      SrcPort		      1
+	      DstBlock		      " SFunction "
+	      DstPort		      7
+	    }
+	    Line {
 	      Name		      "xdot"
-	      ZOrder		      76
+	      ZOrder		      105
 	      Labels		      [0, 0]
 	      SrcBlock		      " SFunction "
 	      SrcPort		      2
-	      Points		      [120, 0; 0, -115]
 	      DstBlock		      "xdot"
 	      DstPort		      1
 	    }
 	    Line {
-	      ZOrder		      77
+	      ZOrder		      106
 	      SrcBlock		      " Demux "
 	      SrcPort		      1
 	      DstBlock		      " Terminator "
 	      DstPort		      1
 	    }
 	    Line {
-	      ZOrder		      78
+	      ZOrder		      107
 	      SrcBlock		      " SFunction "
 	      SrcPort		      1
-	      Points		      [15, 0; 0, 95]
 	      DstBlock		      " Demux "
 	      DstPort		      1
 	    }
@@ -2131,14 +2161,14 @@ Model {
 	  BlockType		  Outport
 	  Name			  "Gamma"
 	  SID			  "46"
-	  Position		  [880, 348, 910, 362]
+	  Position		  [895, 383, 925, 397]
 	  ZOrder		  322
 	}
 	Block {
 	  BlockType		  Outport
 	  Name			  "y"
 	  SID			  "36"
-	  Position		  [950, 268, 980, 282]
+	  Position		  [965, 303, 995, 317]
 	  ZOrder		  318
 	  Port			  "2"
 	}
@@ -2146,7 +2176,7 @@ Model {
 	  BlockType		  Outport
 	  Name			  "Cmalpha"
 	  SID			  "59"
-	  Position		  [830, 693, 860, 707]
+	  Position		  [830, 783, 860, 797]
 	  ZOrder		  331
 	  Port			  "3"
 	}
@@ -2161,28 +2191,37 @@ Model {
 	  ZOrder		  13
 	  SrcBlock		  "Bus\nCreator"
 	  SrcPort		  1
-	  Points		  [29, 0; 0, 294; -646, 0]
+	  Points		  [-5, 0; 34, 0; 0, 349; -841, 0]
 	  Branch {
 	    ZOrder		    94
 	    Points		    [0, -259]
 	    Branch {
-	      ZOrder		      41
-	      DstBlock		      "Bus\nSelector3"
+	      ZOrder		      173
+	      DstBlock		      "Bus\nSelector6"
 	      DstPort		      1
 	    }
 	    Branch {
-	      ZOrder		      40
+	      ZOrder		      172
 	      Points		      [0, -90]
 	      Branch {
-		ZOrder			43
-		DstBlock		"Bus\nSelector1"
+		ZOrder			41
+		DstBlock		"Bus\nSelector3"
 		DstPort			1
 	      }
 	      Branch {
-		ZOrder			42
+		ZOrder			40
 		Points			[0, -90]
-		DstBlock		"Bus\nSelector2"
-		DstPort			1
+		Branch {
+		  ZOrder		  43
+		  DstBlock		  "Bus\nSelector1"
+		  DstPort		  1
+		}
+		Branch {
+		  ZOrder		  42
+		  Points		  [0, -90]
+		  DstBlock		  "Bus\nSelector2"
+		  DstPort		  1
+		}
 	      }
 	    }
 	  }
@@ -2264,26 +2303,22 @@ Model {
 	  ZOrder		  9
 	  SrcBlock		  "Integrator"
 	  SrcPort		  1
-	  Points		  [17, 0]
+	  Points		  [12, 0]
 	  Branch {
-	    ZOrder		    86
-	    Points		    [0, 10]
-	    Branch {
-	      ZOrder		      26
-	      DstBlock		      "outputs"
-	      DstPort		      1
-	    }
-	    Branch {
-	      ZOrder		      67
-	      Points		      [0, 80]
-	      DstBlock		      "To Workspace"
-	      DstPort		      1
-	    }
+	    ZOrder		    177
+	    Points		    [0, -324; -269, 0; 0, 54]
+	    DstBlock		    "xdot"
+	    DstPort		    1
 	  }
 	  Branch {
-	    ZOrder		    82
-	    Points		    [0, -291; -244, 0; 0, 66]
-	    DstBlock		    "xdot"
+	    ZOrder		    26
+	    DstBlock		    "outputs"
+	    DstPort		    1
+	  }
+	  Branch {
+	    ZOrder		    67
+	    Points		    [0, 80]
+	    DstBlock		    "To Workspace"
 	    DstPort		    1
 	  }
 	}
@@ -2391,7 +2426,7 @@ Model {
 	  SrcBlock		  "T"
 	  SrcPort		  1
 	  DstBlock		  "xdot"
-	  DstPort		  6
+	  DstPort		  7
 	}
 	Line {
 	  ZOrder		  88
@@ -2406,6 +2441,7 @@ Model {
 	  Labels		  [0, 0]
 	  SrcBlock		  "Bus\nSelector4"
 	  SrcPort		  2
+	  Points		  [-5, 0]
 	  DstBlock		  "CMm1"
 	  DstPort		  2
 	}
@@ -2415,6 +2451,7 @@ Model {
 	  Labels		  [0, 0]
 	  SrcBlock		  "Bus\nSelector4"
 	  SrcPort		  3
+	  Points		  [-5, 0]
 	  DstBlock		  "CMm1"
 	  DstPort		  3
 	}
@@ -2424,6 +2461,7 @@ Model {
 	  Labels		  [0, 0]
 	  SrcBlock		  "Bus\nSelector5"
 	  SrcPort		  1
+	  Points		  [-5, 0]
 	  DstBlock		  "CMm2"
 	  DstPort		  1
 	}
@@ -2433,6 +2471,7 @@ Model {
 	  Labels		  [0, 0]
 	  SrcBlock		  "Bus\nSelector5"
 	  SrcPort		  2
+	  Points		  [-5, 0]
 	  DstBlock		  "CMm2"
 	  DstPort		  2
 	}
@@ -2442,6 +2481,7 @@ Model {
 	  Labels		  [0, 0]
 	  SrcBlock		  "Bus\nSelector5"
 	  SrcPort		  3
+	  Points		  [-5, 0]
 	  DstBlock		  "CMm2"
 	  DstPort		  3
 	}
@@ -2451,6 +2491,7 @@ Model {
 	  Labels		  [0, 0]
 	  SrcBlock		  "Bus\nSelector4"
 	  SrcPort		  1
+	  Points		  [-5, 0]
 	  DstBlock		  "Sum"
 	  DstPort		  2
 	}
@@ -2465,7 +2506,7 @@ Model {
 	  ZOrder		  104
 	  SrcBlock		  "Perturbation"
 	  SrcPort		  1
-	  Points		  [35, 0]
+	  Points		  [-5, 0; 220, 0]
 	  Branch {
 	    ZOrder		    112
 	    DstBlock		    "Sum"
@@ -2509,6 +2550,31 @@ Model {
 	Line {
 	  ZOrder		  145
 	  SrcBlock		  "de"
+	  SrcPort		  1
+	  DstBlock		  "xdot"
+	  DstPort		  6
+	}
+	Line {
+	  Name			  "<alpha>"
+	  ZOrder		  174
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector6"
+	  SrcPort		  1
+	  DstBlock		  "CMmq"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<Mach>"
+	  ZOrder		  175
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector6"
+	  SrcPort		  2
+	  DstBlock		  "CMmq"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  178
+	  SrcBlock		  "CMmq"
 	  SrcPort		  1
 	  DstBlock		  "xdot"
 	  DstPort		  5
@@ -2961,11 +3027,11 @@ Model {
 Stateflow {
   machine {
     id			    1
-    name		    "flightSDM"
+    name		    "flightSDM_2016b"
     created		    "19-Apr-2024 10:16:22"
     isLibrary		    0
     sfVersion		    80000010
-    firstTarget		    26
+    firstTarget		    27
   }
   chart {
     id			    2
@@ -3201,7 +3267,7 @@ Stateflow {
     screen		    [1 1 3600 1200 1.180555555555556]
     treeNode		    [0 14 0 0]
     viewObj		    13
-    ssIdHighWaterMark	    11
+    ssIdHighWaterMark	    12
     decomposition	    CLUSTER_CHART
     type		    EML_CHART
     chartFileNumber	    2
@@ -3210,8 +3276,8 @@ Stateflow {
       name		      "flightdynamics"
     }
     firstData		    15
-    firstTransition	    24
-    firstJunction	    23
+    firstTransition	    25
+    firstJunction	    24
   }
   state {
     id			    14
@@ -3227,19 +3293,19 @@ Stateflow {
     decomposition	    CLUSTER_STATE
     eml {
       isEML		      1
-      script		      "function xdot = flightdynamics(x,Cx,Cz,Cm,de_demand,thrust,params)\n\n\n\ncoder.extrinsic('atmosi"
-      "sa');\n\nm       = params.m;\ng       = params.g; \nS       = params.S;\nc       = params.c;\nJyy     = params.J"
-      "yy; \nTx      = thrust;   \n\n\nzeta_act  = params.zeta_act; \nomega_act = params.omega_act;   \nudotlim   = par"
-      "ams.udotlim;\n\n \n\nU       = x(1);\nW       = x(2);\nQ       = x(3);\nTheta   = x(4);\nZ       = x(5); \n\n[~,"
-      " ~ , ~, rho] = atmosisa(-Z);\n\n\nq       = 0;\nq       = 0.5*rho*( U^2 + W^2 );\n\nalpha   = atan2(W,U);       "
-      "        %[rad]\nsA      = sin(alpha);\ncA      = cos(alpha);\n\nsT = sin(Theta);\ncT = cos(Theta);\n\n[ CD , CL "
-      "] = rotate2wind( Cx , Cz , alpha );\n\nD = q*S*CD;\nL = q*S*CL;\nM = q*S*c*Cm;\n\nxdot = zeros(7,1);\n\nxdot(1) "
-      "= ( -m*W*Q - cA*D + sA*L - m*g*sT + Tx )/m ; %U \nxdot(2) = (  m*U*Q - sA*D - cA*L + m*g*cT )/m; %W \nxdot(3) = "
-      "( M )/Jyy ; %Q \nxdot(4) = Q; %Theta\nxdot(5) = -sin(Theta)*U + cos(Theta)*W; %Z\n\n\nde_demand = min(deg2rad(10"
-      "), max( de_demand, -deg2rad(10)));\nx(6) = min(deg2rad(10), max( x(6), -deg2rad(10)));\nx(7) = min(udotlim, max("
-      " x(7), -udotlim));\nxdot(6) = x(7);\nxdot(7) = -2*zeta_act*omega_act*x(7) - omega_act^2*x(6) + omega_act^2*de_de"
-      "mand;\n\nend\n\n\nfunction [ D  , L ] = rotate2wind( FX , FZ, alpha  )\nOsa = [ cos(alpha)  sin(alpha);\n       "
-      "-sin(alpha)  cos(alpha)];\nFW  = -1*Osa*[FX;FZ];\nD = FW(1);\nL = FW(2);\nend"
+      script		      "function xdot = flightdynamics(x,Cx,Cz,Cm,Cmq,de_demand,thrust,params)\n\n\n\ncoder.extrinsic('at"
+      "mosisa');\n\nm       = params.m;\ng       = params.g; \nS       = params.S;\nc       = params.c;\nJyy     = para"
+      "ms.Jyy; \nTx      = thrust;   \n\n\nzeta_act  = params.zeta_act; \nomega_act = params.omega_act;   \nudotlim   ="
+      " params.udotlim;\n\n \n\nU       = x(1);\nW       = x(2);\nQ       = x(3);\nTheta   = x(4);\nZ       = x(5); \n\n"
+      "[~, ~ , ~, rho] = atmosisa(-Z);\n\n\nq       = 0;\nq       = 0.5*rho*( U^2 + W^2 );\n\nalpha   = atan2(W,U);    "
+      "           %[rad]\nsA      = sin(alpha);\ncA      = cos(alpha);\n\nsT = sin(Theta);\ncT = cos(Theta);\n\n[ CD , "
+      "CL ] = rotate2wind( Cx , Cz , alpha );\n\nD = q*S*CD;\nL = q*S*CL;\nM = q*S*c*Cm + q*S*c^2/2/( U^2 + W^2 )*Cmq;\n"
+      "\nxdot = zeros(7,1);\n\nxdot(1) = ( -m*W*Q - cA*D + sA*L - m*g*sT + Tx )/m ; %U \nxdot(2) = (  m*U*Q - sA*D - cA"
+      "*L + m*g*cT )/m; %W \nxdot(3) = ( M )/Jyy ; %Q \nxdot(4) = Q; %Theta\nxdot(5) = -sin(Theta)*U + cos(Theta)*W; %Z"
+      "\n\n\nde_demand = min(deg2rad(10), max( de_demand, -deg2rad(10)));\nx(6) = min(deg2rad(10), max( x(6), -deg2rad("
+      "10)));\nx(7) = min(udotlim, max( x(7), -udotlim));\nxdot(6) = x(7);\nxdot(7) = -2*zeta_act*omega_act*x(7) - omeg"
+      "a_act^2*x(6) + omega_act^2*de_demand;\n\nend\n\n\nfunction [ D  , L ] = rotate2wind( FX , FZ, alpha  )\nOsa = [ "
+      "cos(alpha)  sin(alpha);\n       -sin(alpha)  cos(alpha)];\nFW  = -1*Osa*[FX;FZ];\nD = FW(1);\nL = FW(2);\nend"
     }
   }
   data {
@@ -3364,6 +3430,31 @@ Stateflow {
   }
   data {
     id			    20
+    ssIdNumber		    12
+    name		    "Cmq"
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+	isSigned		1
+	wordLength		"16"
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_INHERITED
+      unit {
+	name			"inherit"
+      }
+    }
+    dataType		    "Inherit: Same as Simulink"
+    linkNode		    [13 19 21]
+  }
+  data {
+    id			    21
     ssIdNumber		    8
     name		    "de_demand"
     scope		    INPUT_DATA
@@ -3386,10 +3477,10 @@ Stateflow {
       }
     }
     dataType		    "Inherit: Same as Simulink"
-    linkNode		    [13 19 21]
+    linkNode		    [13 20 22]
   }
   data {
-    id			    21
+    id			    22
     ssIdNumber		    11
     name		    "thrust"
     scope		    INPUT_DATA
@@ -3411,10 +3502,10 @@ Stateflow {
       }
     }
     dataType		    "Inherit: Same as Simulink"
-    linkNode		    [13 20 22]
+    linkNode		    [13 21 23]
   }
   data {
-    id			    22
+    id			    23
     ssIdNumber		    10
     name		    "params"
     scope		    PARAMETER_DATA
@@ -3436,10 +3527,10 @@ Stateflow {
       }
     }
     dataType		    "Inherit: Same as Simulink"
-    linkNode		    [13 21 0]
+    linkNode		    [13 22 0]
   }
   junction {
-    id			    23
+    id			    24
     position		    [23.5747 49.5747 7]
     chart		    13
     subviewer		    13
@@ -3448,7 +3539,7 @@ Stateflow {
     linkNode		    [13 0 0]
   }
   transition {
-    id			    24
+    id			    25
     labelString		    "{eML_blk_kernel();}"
     labelPosition	    [28.125 13.875 102.544 14.964]
     fontSize		    12
@@ -3456,7 +3547,7 @@ Stateflow {
       intersection	      [0 0 1 0 23.5747 14.625 0 0]
     }
     dst {
-      id		      23
+      id		      24
       intersection	      [1 0 -1 0 23.5747 42.5747 0 0]
     }
     midPoint		    [23.5747 24.9468]
@@ -3472,13 +3563,13 @@ Stateflow {
     linkNode		    [13 0 0]
   }
   instance {
-    id			    25
+    id			    26
     machine		    1
     name		    "Flight Dynamics SDM/xdot"
     chart		    13
   }
   target {
-    id			    26
+    id			    27
     machine		    1
     name		    "sfun"
     description		    "Default Simulink S-Function Target."
